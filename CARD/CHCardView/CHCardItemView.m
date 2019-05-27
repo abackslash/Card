@@ -39,6 +39,7 @@
     self.layer.cornerRadius = 5.0;
     self.layer.masksToBounds = YES;
     self.layer.shouldRasterize = YES;
+    self.layer.rasterizationScale = UIScreen.mainScreen.scale;
 }
 
 - (void)setFrame:(CGRect)frame {
